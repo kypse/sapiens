@@ -1,3 +1,9 @@
+<br/>
+<div align="center">
+  <img width="380px" src="https://github.com/kypse/sapiens/edit/master/fingerprint.png">
+</div>
+<br/>
+
 # sapiens
 /SAPIENS/ 
 
