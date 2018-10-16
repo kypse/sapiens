@@ -7,4 +7,9 @@ The SAPIENS is an Enterprise Software to manage resources, define process workfl
 
 ## Table of Contents
 
-- [Technology] (#technology)
+- [Technology](#technology)
+
+# Technology
+
+- [Electron] (https://electronjs.org)
+- [React] (https://reactjs.org/)
