@@ -1,6 +1,6 @@
 <br/>
 <div align="center">
-  <img width="380px" src="https://github.com/kypse/sapiens/edit/master/fingerprint.png">
+  <img width="150px" height="200px" src="https://github.com/kypse/sapiens/blob/master/fingerprint.png">
 </div>
 <br/>
 
