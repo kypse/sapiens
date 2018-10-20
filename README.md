@@ -8,6 +8,7 @@
 /SAPIENS/
 
 [![license](https://img.shields.io/github/license/desktop/desktop.svg?style=flat-square)](https://github.com/kypse/sapiens/blob/master/LICENSE)
+![90+% TypeScript](https://img.shields.io/github/languages/top/desktop/desktop.svg?style=flat-square&colorB=green)
 
 (**S**ystem **A**pplications &amp; **P**roducts **I**ntegration **E**nterprise **N**etwork **S**olution)
 
