@@ -1,0 +1,30 @@
+{
+  "name": "chai-datetime",
+  "version": "1.5.0",
+  "keywords": ["chai", "chai-plugin", "objects", "date", "time", "browser", "testing", "jasmine"],
+  "description": "date / time comparison matchers for chai",
+  "main": "chai-datetime.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --recursive -C",
+    "testwatch": "./node_modules/.bin/nodemon -L -d 0 -w . --exec make test",
+    "clean": "rm -rf node_modules",
+    "dev": "npm run clean && npm install && npm run testwatch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gaslight/chai-datetime.git"
+  },
+  "author": {
+    "name": "Michael Guterl",
+    "email": "michael@diminishing.org",
+    "url": "http://diminishing.org"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "~1.6.0",
+    "nodemon": "~0.6.23"
+  },
+  "dependencies": {
+    "chai": ">1.9.0"
+  }
+}
