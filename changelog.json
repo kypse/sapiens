@@ -1,0 +1,9 @@
+{
+  "releases": {
+     "0.0.25": [
+      "[Added] Added a new first version.",
+      "[Fixed] Fixed issues."
+    ],
+    "0.0.24": ["Changed a thing", "Added another thing"]
+  }
+}
