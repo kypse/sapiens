@@ -5,7 +5,9 @@
 <br/>
 
 # sapiens
-/SAPIENS/ 
+/SAPIENS/
+
+[![license](https://img.shields.io/github/license/desktop/desktop.svg?style=flat-square)](https://github.com/kypse/sapiens/blob/master/LICENSE)
 
 (**S**ystem **A**pplications &amp; **P**roducts **I**ntegration **E**nterprise **N**etwork **S**olution)
 
