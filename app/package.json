@@ -16,10 +16,6 @@
     "url": "https://www.kypse.com/"
   },
   "license": "MIT",
-  "dependencies": {
-
-  },
-  "devDependencies": {
-
-  }
+  "dependencies": {},
+  "devDependencies": {}
 }

@@ -16,7 +16,7 @@ const command: ICommandModule = {
     {
       name: 'url|slug',
       required: true,
-      description: 'The URL or the GitHub owner/name alias to clone',
+      description: 'The URL or the Kypse owner/name alias to clone',
       type: 'string',
     },
   ],
@@ -36,7 +36,7 @@ const command: ICommandModule = {
       _.toString() // don’t mark as unused
     } catch (e) {
       // invalid URL, assume a GitHub repo
-      cloneUrl = `https://github.com/${cloneUrl}`
+      cloneUrl = `https://kypse.com/${cloneUrl}`
     }
     const url = `openRepo/${cloneUrl}?${QueryString.stringify({
       branch,
