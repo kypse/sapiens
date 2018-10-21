@@ -15,7 +15,7 @@ export function getCLICommands() {
   return (
     // eslint-disable-next-line no-sync
     fs
-      .readdirSync(Path.resolve(projectRoot, 'app', 'src', 'cli', 'commands'))
+      .readdirSync(Path.resolve(projectRoot, 'app', 'desktop', 'src', 'cli', 'commands'))
       .filter(name => name.endsWith('.ts'))
       .map(name => name.replace(/\.ts$/, ''))
   )
