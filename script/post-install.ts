@@ -1,9 +1,8 @@
 #!/usr/bin/env ts-node
 
-import * as Path from 'path'
-import { spawnSync, SpawnSyncOptions } from 'child_process'
-
-import * as glob from 'glob'
+import { spawnSync, SpawnSyncOptions } from 'child_process';
+import * as glob from 'glob';
+import * as Path from 'path';
 
 const root = Path.dirname(__dirname)
 

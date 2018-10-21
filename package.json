@@ -15,8 +15,11 @@
     "node": ">= 8.11",
     "yarn": ">= 1.9"
   },
-  "dependencies": {},
+  "dependencies": {
+    "glob": "^7.1.2"
+  },
   "devDependencies": {
-    "@types/node": "^10.12.0"
+    "@types/node": "^10.12.0",
+    "@types/glob": "^5.0.35"
   }
 }
