@@ -3,7 +3,7 @@ import * as webpack from 'webpack'
 import * as devMiddleware from 'webpack-dev-middleware'
 import * as hotMiddleware from 'webpack-hot-middleware'
 
-import { forceUnwrap as u } from '../app/src/lib/fatal-error'
+import { forceUnwrap as u } from '../app/desktop/src/lib/fatal-error'
 
 import configs = require('../app/webpack.development')
 
