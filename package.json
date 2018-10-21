@@ -6,8 +6,11 @@
   "description": "GitHub Sapiens build dependencies",
   "scripts": {
     "start": "cross-env NODE_ENV=development ts-node -P script/tsconfig.json script/start.ts",
+    "compile:dev": "cross-env NODE_ENV=development parallel-webpack --config app/webpack.development.ts",
+    "compile:prod": "cross-env NODE_ENV=production NODE_OPTIONS='--max_old_space_size=4096' parallel-webpack --config app/webpack.production.ts",
     "build:dev": "yarn compile:dev && cross-env NODE_ENV=development ts-node -P script/tsconfig.json script/build.ts",
-    "build:prod": "yarn compile:prod && cross-env NODE_ENV=production ts-node -P script/tsconfig.json script/build.ts"
+    "build:prod": "yarn compile:prod && cross-env NODE_ENV=production ts-node -P script/tsconfig.json script/build.ts",
+    "package": "ts-node -P script/tsconfig.json script/package.ts"
   },
   "author": {
     "name": "Kypse, Inc.",
@@ -31,6 +34,7 @@
     "glob": "^7.1.2",
     "html-webpack-plugin": "^3.2.0",
     "legal-eagle": "0.16.0",
+    "parallel-webpack": "^2.3.0",
     "ts-node": "^7.0.0",
     "tslint": "^5.11.0",
     "typescript": "^3.1.1",
